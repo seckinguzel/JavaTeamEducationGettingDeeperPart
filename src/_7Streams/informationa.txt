@@ -1,0 +1,6 @@
+Ne zaman "stream()" kullanmalıyım?
+1-Bir dizi elemanının homojen olarak dönüşüme tabi tutulması.
+2-Elemanların filtrelenmesi.
+3-Tek bir işlemle bir dizi elemanının toplanması, minimum değer hesaplaması, ard arda eklemesi vs.
+4-Bir dizi elemanının gruplanarak bir koleksiyon yazılması.
+5-Bir dizi eleman içerisinde belli kriterlere göre arama yapılması.

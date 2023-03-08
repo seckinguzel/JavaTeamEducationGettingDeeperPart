@@ -1,0 +1,19 @@
+//Declaration of generic method.
+public <E> void methodName(E parameter) {
+    // method body
+}
+//<E> is a special declaration fot to declare generic types.
+
+1-Type security is provided by generics during the compilation time.
+
+2-Generics could allow to block cast operations like autoboxing and unboxing. Autoboxing is to convert from primitive type like int to
+the object like Integer et cetera unboxing is opposite of the autoboxing process.
+-Autoboxing-
+int sayi = 5;
+Integer sayiObjesi = sayi; // Autoboxing işlemi gerçekleşir
+-Unboxing-
+Integer sayiObjesi = new Integer(5);
+int sayi = sayiObjesi; // Unboxing işlemi gerçekleşir
+
+3-Generics are more flexible structure. You don't need to write different methods for each different objects. You can write in one
+framework.

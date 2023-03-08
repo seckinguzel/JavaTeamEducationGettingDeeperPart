@@ -1,0 +1,6 @@
+1-Java code is compiled into bytecode.
+2-Bytecode is loaded into memory and verified for correctness.
+3-Bytecode is executed by the JVM.
+4-Just-In-Time (JIT) compilation may occur to improve performance.
+5-JVM performs optimizations to improve performance.
+6-When the program finishes running, the JVM performs cleanup and shuts down.

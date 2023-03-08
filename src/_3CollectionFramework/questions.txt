@@ -1,0 +1,16 @@
+What is the difference between an array and list?
+In Java, an array is a fixed-size data structure that stores elements of the same data type in contiguous (bitişik) memory locations,
+accessed by their index. Once created, the size of an array cannot be changed.
+
+On the other hand, a list is an interface in Java that defines an ordered collection of elements,
+which can be of different data types. Unlike arrays, lists are dynamic in size and can grow or shrink as needed during runtime.
+
+Arrays are fixed-size and store elements of the same data type,
+while lists are dynamic and can store elements of different data types.
+
+--
+
+What is the difference between Map and Set?
+The main difference between Map and Set in Java is that Map is used to store key-value pairs where each key is unique,
+while Set is used to store a collection of unique elements.
+
