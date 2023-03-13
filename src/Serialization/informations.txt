@@ -1,5 +1,0 @@
-Serialization is the process of converting an object into a stream of bytes.
-That object can then be saved to a database or transferred over a network.
-
-Object---->Stream of Bytes---->File/DB/Memory---->Stream of Bytes---->Object
-  Serialization                                             Deserialization

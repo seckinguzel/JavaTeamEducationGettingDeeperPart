@@ -1,6 +1,9 @@
-package Serialization.jason;
+package _8Serialization;
 
-public class UserJson {
+import java.io.Serializable;
+
+public class User implements Serializable {
+    private static final long serialVersionUID = 1L;
     private int id;
     private String name;
 
@@ -22,7 +25,7 @@ public class UserJson {
 
     @Override
     public String toString() {
-        return "UserJson{" +
+        return "User{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';

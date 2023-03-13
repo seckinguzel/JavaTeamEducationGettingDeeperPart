@@ -1,4 +1,4 @@
-package Serialization;
+package _8Serialization;
 
 import java.io.*;
 
@@ -9,7 +9,7 @@ public class TestUser {
         user.setId(1);
         user.setName("Seckin");
 
-        String filePath = "/Users/seckinguzel/IdeaProjects/JavaTeamEducationGettingDeeperPart/src/Serialization/user.txt";
+        String filePath = "/Users/seckinguzel/IdeaProjects/JavaTeamEducationGettingDeeperPart/src/_8Serialization/user.txt";
 
         FileOutputStream fileOutputStream = new FileOutputStream(filePath);
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);

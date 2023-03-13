@@ -1,4 +1,4 @@
-package Serialization.jason;
+package _8Serialization.jason;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.databind.JsonMappingException;
@@ -14,7 +14,7 @@ public class TestUserJson {
         userJson.setId(2);
         userJson.setName("Tuncay");
 
-        String filePath = "/Users/seckinguzel/IdeaProjects/JavaTeamEducationGettingDeeperPart/src/Serialization/jason/userJson.txt";
+        String filePath = "/Users/seckinguzel/IdeaProjects/JavaTeamEducationGettingDeeperPart/src/_8Serialization/jason/userJson.txt";
 
         File file = new File(filePath);
         ObjectMapper mapper = new ObjectMapper();
